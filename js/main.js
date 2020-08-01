@@ -5,8 +5,8 @@ console.log("SEAF has fired");
 
 const searchUser = document.getElementById('search-user');
 var userName = '';
-const clientId = '037a87c10d21cde5d465';
-const clientSecret = 'a3dc10b17443b4c78dfe9742ae3a5609f4c72f1d';
+const clientId = '';
+const clientSecret = '';
 
 searchUser.addEventListener('keyup', (e) => {
 	userName = searchUser.value;
